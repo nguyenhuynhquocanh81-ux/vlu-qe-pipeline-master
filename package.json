@@ -1,0 +1,12 @@
+{
+  "name": "vlu-qe-pipeline-master",
+  "version": "1.0.0",
+  "description": "CI/CD pipeline demo for VLU Software Testing Lab 01",
+  "scripts": {
+    "test:smoke": "jest auth.smoke.test.js",
+    "test:regression": "jest auth.regression.test.js"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
